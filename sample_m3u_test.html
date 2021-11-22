@@ -5,14 +5,23 @@
     <title>Sample M3U test</title>
 
     <meta property="og:title" content="M3U link preview test">
+    <meta property="og:site_name" content="SixDigitCode LinkPreviewTest">
+    <meta property="og:description" content="This is a test to see how Messages on iOS handles link previews">
     <meta property="og:image" content="https://sixdigitcode.github.io/LinkPreviewTest/video_img.jpg">
     <meta property="og:video" content="https://sixdigitcode.github.io/LinkPreviewTest/m3ustream/master.m3u8">
+    <meta property="og:video:type" content="application/vnd.apple.mpegurl">
+    <meta property="og:video:width" content="1920">
+    <meta property="og:video:height" content="1080">
     <meta property="twitter:player:stream" content="https://sixdigitcode.github.io/LinkPreviewTest/m3ustream/master.m3u8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <body>
     Test
+    <video width="352" height="198" controls>
+        <source src="https://sixdigitcode.github.io/LinkPreviewTest/m3ustream/master.m3u8" type="application/x-mpegURL">
+    </video>
 </body>
 
 </html>
